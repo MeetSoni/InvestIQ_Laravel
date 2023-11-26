@@ -1,0 +1,120 @@
+body, h1, h2, h3, h4, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 1.125rem;
+    margin-top: 10px;
+}
+
+h4 {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.main_title {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.main_pricing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.Pricing_1 {
+    background-color: #fff;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.sub_title {
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+.sign_up {
+    text-align: center;
+    margin: 50px 20px 50px 20px;
+}
+
+.signup_button {
+    border-radius: 25px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.125rem;
+    cursor: pointer;
+    background: #007bff;
+    width: 120px;
+    height: 60px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
+/* Style the Terms & Conditions */
+.tnc {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tnc h4 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.tnc ul {
+    list-style: disc outside;
+    margin: 10px 0;
+    padding-left: 20px;
+    color: #555;
+}
+
+.tnc p {
+    font-size: 1.125rem;
+    line-height: 1.4;
+    color: #777;
+}
+
+.main_pricing img {
+    width: 100%;
+    max-width: 150px;
+}
+
+@media (max-width: 768px) {
+    .main_pricing {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,202 @@
+body, html {
+    width: 100%;
+}
+  
+/* Apply some basic styles to the entire page */
+body {
+    /* background-color: gainsboro; */
+}
+
+/* Css design for abt_top containor */
+.aboutt_container {
+    display: flex;
+    width: 100%;
+    background-color:#53789500;
+}
+.abt_top{
+    display: block;
+    text-align:justify;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width:97%;
+
+    padding: 1% 1% 1% 1%;
+}
+
+.abt_top h2{
+    text-align:center;
+    display:block;
+    padding: auto;
+    color:black;
+    font-size:xx-large;
+}
+.abt_top p{
+    text-align:justify;
+    padding-left: 30%;
+    padding-right: 30%;
+    color:black;
+    font-size: large;
+}
+/* css design for abt_team */
+/* Style for the team section */
+.abt_team {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  /* Style for individual team members */
+  .abt_team_data {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  /* Style for each team member's container */
+  .abt_team_data > div {
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Hover effect on team member's container */
+  .abt_team_data > div:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style for team member images */
+  .abt_team_data img {
+    width: 100%;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  /* Hover effect on team member images */
+  .abt_team_data img:hover {
+    border-color: #63a1ff; /* Change to your desired color */
+  }
+  
+  /* Style for team member names */
+  .abt_team_data h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  /* Style for team member roles */
+  .abt_team_data p {
+    margin: 5px 0;
+    font-style: italic;
+  }
+  
+/* css for device with max-width = 768px */
+@media (max-width: 768px) {
+    .about_container{
+        width: 100%;
+        display: block;
+    }
+
+    .abt_top{
+        display: block;
+        text-align:justify;
+        align-items: center;
+        background-color: green;
+        border-radius: 10px;
+        width:97%;
+        padding: 1% 1% 1% 1%;
+    }
+    .abt_top h2{
+        text-align:center;
+        display:block;
+        padding: auto;
+        color:white;
+        font-weight: bolder;
+        font-size: larger;
+
+    }
+    .abt_top p{
+        text-align:justify;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .abt_team {
+        display:block;
+        width: 97%;
+
+        background-color: gainsboro;
+        /* align-items: center; */
+        text-align: center;
+        
+    
+    }
+    .abt_team_data{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 10%;
+        padding-right: 10%; 
+        margin-left: 10%;
+        margin-right: 10%;
+    
+    }
+    .abt_team .abt_t1,.abt_t2,.abt_t3,.abt_t4,.abt_t5{
+        width: 100%;
+        align-content: center;
+        /* display: flexbox; */
+    }
+
+    .abt_team .abt_t1 p,.abt_t2 p,.abt_t3 p,.abt_t4 p,.abt_t5 p{
+        font-weight: lighter;
+        align-content: center; 
+    }
+    .abt_team .abt_t1 img,.abt_t2 img,.abt_t3 img,.abt_t4 img,.abt_t5 img{
+        width:90px;
+        height:90px;
+        border-radius: 50%; /* This property creates a circular shape */
+    }
+
+}
+
+  /* css for device with max-width = 320px */
+@media only screen and (max-width: 320px) {
+    body{
+        width: 100%;
+    }
+    .about_container{
+        width: 100%;
+        display: block;
+    }
+    .abt_top{
+        display: block;
+        text-align:justify;
+        align-items: center;
+        background-color: green;
+        border-radius: 15px;
+        width:100%;
+    }
+    .abt_top h2{
+        text-align:center;
+        display:block;
+        padding: auto;
+        color:white;
+        font-weight: bolder;
+
+    }
+    .abt_top p{
+        text-align:justify;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .abt_team_data{
+        display: inline-block;
+        align-content:baseline;
+    
+    }
+}

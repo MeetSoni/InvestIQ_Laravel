@@ -1,0 +1,130 @@
+
+.home-container {
+    width: 70%;
+    font-family: Arial, sans-serif;
+    /* background-color: #f5f5f5; */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: auto;
+}
+
+.home-heading{
+    width: 100%;
+    background-color:white;
+    display: flex;
+    /* float: left; */
+}
+
+.home-heading-text{
+    width: 50%;
+}
+/* Gradient colors */
+.heading1 {
+    background: linear-gradient(45deg, #FFD700, #FF6347); /* You can change these colors */
+  }
+  
+  .heading2 {
+    background: linear-gradient(90deg, #00CED1, #9400D3); /* You can change these colors */
+  }
+  
+  .heading3 {
+    background: linear-gradient(-45deg, #7CFC00, #4169E1); /* You can change these colors */
+  }
+  
+  /* Animation */
+  @keyframes colorChange {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  /* Applying animation */
+  .heading1,
+  .heading2,
+  .heading3 {
+    animation: colorChange 5s ease infinite alternate; /* Change duration or animation type as needed */
+    color: white; /* Set text color to white for better visibility */
+    background-size: 400% 400%; /* Set background size for the animation */
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+  }
+  
+
+.home-heading-pic{
+    width: 50%;
+    background-color: white;
+}
+
+.home-heading-pic img{
+    width: 100%;
+
+}
+
+.gradient-text{
+    font-size: 4rem;
+    background: linear-gradient(135deg, #3498db, #9b59b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animateText 4s ease-in-out infinite alternate, scaleText 2s ease-in-out infinite alternate;
+
+}
+
+.stock-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.stock-table th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.stock-table th:first-child {
+    border-top-left-radius: 5px;
+}
+
+.stock-table th:last-child {
+    border-top-right-radius: 5px;
+}
+
+.stock-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.stock-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.stock-table tr:hover {
+    background-color: #ddd;
+}
+
+#stock-data {
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.stock-table button{
+    background-color: #537895;
+    color: white;
+    border: 1px solid #537895;
+    padding: 10px;
+}
+
+/* Style the Buy and Sell columns as needed */
+
+
+/* Style the Buy and Sell columns as needed */
